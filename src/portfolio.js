@@ -20,10 +20,10 @@ const illustration = {
 };
 
 const greeting = {
-  username: "Jacob Nef",
-  title: "Hey, I'm Jacob!",
+  username: "Jack Johnson",
+  title: "Hey, I'm Jack!",
   subTitle: emoji(
-    "I'm a Computer Science student at Brigham Young University with an emphasis in Software Engineering. I currently work as a Web Developer at BYU, writing unit tests, developing websites, and leading teams to deliver high-quality software solutions."
+    "test subtitle"
   ),
   resumeLink:
     "https://drive.google.com/file/d/1ofFdKF_mqscH8WvXkSObnVvC9kK7Ldlu/view?usp=sharing", // Set to empty to hide the button. this link doesn't need to be replaced to get your resume in the site. Follow the README instructions for that.
