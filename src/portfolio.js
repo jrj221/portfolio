@@ -22,9 +22,7 @@ const illustration = {
 const greeting = {
   username: "Jack Johnson",
   title: "Hey, I'm Jack!",
-  subTitle: emoji(
-    "Welcome to my portfolio!"
-  ),
+  subTitle: emoji("Welcome to my portfolio!"),
   resumeLink:
     "https://drive.google.com/file/d/17wyh-qPBn7SOCSKdV0qgU_5AMnLGk3Zu/view?usp=drive_link", // Set to empty to hide the button. this link doesn't need to be replaced to get your resume in the site. Follow the README instructions for that.
   displayGreeting: true // Set false to hide this section, defaults to true
@@ -51,9 +49,7 @@ const skillsSection = {
   title: "What I do",
   subTitle: "CURIOUS SOFTWARE ENGINEER WHO LOVES TO LEARN",
   skills: [
-    emoji(
-      "⚡ Build interactive web interfaces using HTML, CSS, JavaScript"
-    ),
+    emoji("⚡ Build interactive web interfaces using HTML, CSS, JavaScript"),
     emoji("⚡ Complete class projects in Python, Java, C++, and C"),
     emoji("⚡ Collaborate with fellow students in full-stack app projects")
   ],
@@ -134,7 +130,7 @@ const educationInfo = {
       logoScale: 1.2, // Optional: zoom factor for logo within the FIXED circle (e.g., 0.8 = zoomed out, 1.5 = zoomed in, circle size never changes)
       subHeader: "Bachelor of Science in Computer Science",
       duration: "September 2023 - April 2027",
-      desc: "3.97 GPA",
+      desc: "3.97 GPA"
       // descBullets: [
       //   "President of BYU Developer's Club",
       //   "Researched ... "
@@ -180,7 +176,7 @@ const workExperiences = {
         "Worked with students needing additional help with classroom topics and concepts",
         "Provided timely feedback to students on their performance, allowing them to make adjustments as needed for continued improvement"
       ]
-    },
+    }
     // {
     //   role: "Front-End Developer",
     //   company: "Quora",
@@ -215,7 +211,8 @@ const bigProjects = {
     {
       image: require("./assets/images/chessScreenshot.png"),
       projectName: "Chess Game (CS 240)",
-      projectDesc: "Features a networked client-server architecture, with a command-line client, a server to manage users and games, and shared modules for implementing chess rules and game state management.",
+      projectDesc:
+        "Features a networked client-server architecture, with a command-line client, a server to manage users and games, and shared modules for implementing chess rules and game state management.",
       footerLink: [
         {
           name: "See Github",
@@ -227,7 +224,8 @@ const bigProjects = {
     {
       image: require("./assets/images/nextuLogo.webp"),
       projectName: "PNG Image Compression (Personal Project",
-      projectDesc: "Uses pixel approximation to optimize the .PNG deflation algorithm. On large files, managed to decrease size by more than 80%",
+      projectDesc:
+        "Uses pixel approximation to optimize the .PNG deflation algorithm. On large files, managed to decrease size by more than 80%",
       footerLink: [
         {
           name: "See GitHub",
