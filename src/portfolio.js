@@ -23,19 +23,19 @@ const greeting = {
   username: "Jack Johnson",
   title: "Hey, I'm Jack!",
   subTitle: emoji(
-    "test subtitle"
+    "Welcome to my portfolio!"
   ),
   resumeLink:
-    "https://drive.google.com/file/d/1ofFdKF_mqscH8WvXkSObnVvC9kK7Ldlu/view?usp=sharing", // Set to empty to hide the button. this link doesn't need to be replaced to get your resume in the site. Follow the README instructions for that.
+    "https://drive.google.com/file/d/17wyh-qPBn7SOCSKdV0qgU_5AMnLGk3Zu/view?usp=drive_link", // Set to empty to hide the button. this link doesn't need to be replaced to get your resume in the site. Follow the README instructions for that.
   displayGreeting: true // Set false to hide this section, defaults to true
 };
 
 // Social Media Links
 
 const socialMediaLinks = {
-  github: "https://github.com/jakenef",
-  linkedin: "https://www.linkedin.com/in/jacob-nef/",
-  gmail: "saadpasta70@gmail.com",
+  github: "https://github.com/jrj221",
+  linkedin: "https://www.linkedin.com/in/jack-johnson-668a93225/",
+  gmail: "jackjohnson221b@gmail.com",
   //gitlab: "https://gitlab.com/saadpasta",
   //facebook: "https://www.facebook.com/saad.pasta7",
   //medium: "https://medium.com/@saadpasta",
@@ -49,15 +49,13 @@ const socialMediaLinks = {
 
 const skillsSection = {
   title: "What I do",
-  subTitle: "DEDICATED FULL-STACK ENGINEER WHO LOVES TO LEARN",
+  subTitle: "CURIOUS SOFTWARE ENGINEER WHO LOVES TO LEARN",
   skills: [
     emoji(
-      "⚡ Develop highly interactive user interfaces for web applications"
+      "⚡ Build interactive web interfaces using HTML, CSS, JavaScript"
     ),
-    emoji("⚡ Write hundreds of unit tests in Java and TypeScript to catch edge cases"),
-    emoji(
-      "⚡ Lead teams of 2-6 programmers to deliver 6+ projects on time"
-    )
+    emoji("⚡ Complete class projects in Python, Java, C++, and C"),
+    emoji("⚡ Collaborate with fellow students in full-stack app projects")
   ],
 
   /* Make Sure to include correct Font Awesome Classname to view your icon
@@ -65,17 +63,17 @@ https://fontawesome.com/icons?d=gallery */
 
   softwareSkills: [
     {
-      skillName: "html-5",
+      skillName: "HTML",
       fontAwesomeClassname: "fab fa-html5"
     },
     {
-      skillName: "css3",
+      skillName: "CSS",
       fontAwesomeClassname: "fab fa-css3-alt"
     },
-    {
-      skillName: "sass",
-      fontAwesomeClassname: "fab fa-sass"
-    },
+    // {
+    //   skillName: "sass",
+    //   fontAwesomeClassname: "fab fa-sass"
+    // },
     {
       skillName: "JavaScript",
       fontAwesomeClassname: "fab fa-js"
@@ -88,34 +86,38 @@ https://fontawesome.com/icons?d=gallery */
       skillName: "nodejs",
       fontAwesomeClassname: "fab fa-node"
     },
-    {
-      skillName: "swift",
-      fontAwesomeClassname: "fab fa-swift"
-    },
+    // {
+    //   skillName: "swift",
+    //   fontAwesomeClassname: "fab fa-swift"
+    // },
     {
       skillName: "npm",
       fontAwesomeClassname: "fab fa-npm"
     },
-    {
-      skillName: "sql-database",
-      fontAwesomeClassname: "fas fa-database"
-    },
+    // {
+    //   skillName: "sql-database",
+    //   fontAwesomeClassname: "fas fa-database"
+    // },
     {
       skillName: "aws",
       fontAwesomeClassname: "fab fa-aws"
     },
-    {
-      skillName: "firebase",
-      fontAwesomeClassname: "fas fa-fire"
-    },
+    // {
+    //   skillName: "firebase",
+    //   fontAwesomeClassname: "fas fa-fire"
+    // },
     {
       skillName: "python",
       fontAwesomeClassname: "fab fa-python"
     },
     {
-      skillName: "docker",
-      fontAwesomeClassname: "fab fa-docker"
+      skillName: "Java",
+      fontAwesomeClassname: "fab fa-java"
     }
+    // {
+    //   skillName: "docker",
+    //   fontAwesomeClassname: "fab fa-docker"
+    // }
   ],
   display: true // Set false to hide this section, defaults to true
 };
@@ -131,22 +133,12 @@ const educationInfo = {
       logoPosition: "center", // Optional: center, top, bottom, left, right, or specific like "center top"
       logoScale: 1.2, // Optional: zoom factor for logo within the FIXED circle (e.g., 0.8 = zoomed out, 1.5 = zoomed in, circle size never changes)
       subHeader: "Bachelor of Science in Computer Science",
-      duration: "September 2021 - April 2027",
-      desc: "2x Dean's List Recipient (Top 5% of class)",
-      descBullets: [
-        "President of BYU Developer's Club",
-        "Researched ... "
-      ]
-    },
-    {
-      schoolName: "Stanford University",
-      logo: require("./assets/images/stanfordLogo.png"),
-      logoPosition: "center",
-      logoScale: 1,
-      subHeader: "Bachelor of Science in Computer Science",
-      duration: "September 2013 - April 2017",
-      desc: "Ranked top 10% in the program. Took courses about Software Engineering, Web Security, Operating Systems, ...",
-      descBullets: ["Lorem ipsum dolor sit amet, consectetur adipiscing elit"]
+      duration: "September 2023 - April 2027",
+      desc: "3.97 GPA",
+      // descBullets: [
+      //   "President of BYU Developer's Club",
+      //   "Researched ... "
+      // ]
     }
   ]
 };
@@ -178,30 +170,31 @@ const workExperiences = {
   display: true, //Set it to true to show workExperiences Section
   experience: [
     {
-      role: "Software Engineer",
-      company: "Facebook",
-      companylogo: require("./assets/images/facebookLogo.png"),
-      date: "June 2018 – Present",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      role: "Teacher's Assistant",
+      company: "Brigham Young University",
+      companylogo: require("./assets/images/byuMedallionNavy.png"),
+      date: "September 2025 – Present",
+      // desc: "",
       descBullets: [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+        "Improved student comprehension by implementing innovative teaching methods and incorporating visual aids in lessons of over 30 students",
+        "Worked with students needing additional help with classroom topics and concepts",
+        "Provided timely feedback to students on their performance, allowing them to make adjustments as needed for continued improvement"
       ]
     },
-    {
-      role: "Front-End Developer",
-      company: "Quora",
-      companylogo: require("./assets/images/quoraLogo.png"),
-      date: "May 2017 – May 2018",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
-    },
-    {
-      role: "Software Engineer Intern",
-      company: "Airbnb",
-      companylogo: require("./assets/images/airbnbLogo.png"),
-      date: "Jan 2015 – Sep 2015",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
-    }
+    // {
+    //   role: "Front-End Developer",
+    //   company: "Quora",
+    //   companylogo: require("./assets/images/quoraLogo.png"),
+    //   date: "May 2017 – May 2018",
+    //   desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+    // },
+    // {
+    //   role: "Software Engineer Intern",
+    //   company: "Airbnb",
+    //   companylogo: require("./assets/images/airbnbLogo.png"),
+    //   date: "Jan 2015 – Sep 2015",
+    //   desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+    // }
   ]
 };
 
@@ -216,29 +209,29 @@ const openSource = {
 // Some big projects you have worked on
 
 const bigProjects = {
-  title: "Main Projects / Startups",
+  title: "Main Projects",
   subtitle: "SOME PERSONAL AND SCHOOL PROJECTS",
   projects: [
     {
       image: require("./assets/images/chessScreenshot.png"),
-      projectName: "Chess Game",
+      projectName: "Chess Game (CS 240)",
       projectDesc: "Features a networked client-server architecture, with a command-line client, a server to manage users and games, and shared modules for implementing chess rules and game state management.",
       footerLink: [
         {
           name: "See Github",
-          url: "http://github.com/jakenef/chess"
+          url: "http://github.com/jrj221/chess"
         }
         //  you can add extra buttons here.
       ]
     },
     {
       image: require("./assets/images/nextuLogo.webp"),
-      projectName: "260 Project",
-      projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      projectName: "PNG Image Compression (Personal Project",
+      projectDesc: "Uses pixel approximation to optimize the .PNG deflation algorithm. On large files, managed to decrease size by more than 80%",
       footerLink: [
         {
-          name: "Visit Website",
-          url: "http://nextu.se/"
+          name: "See GitHub",
+          url: "http://github.com/jrj221/ImageCompression"
         }
       ]
     }
@@ -304,7 +297,7 @@ const achievementSection = {
       ]
     }
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
 
 // Blogs Section
@@ -376,8 +369,8 @@ const contactInfo = {
   title: emoji("Contact Me ☎️"),
   subtitle:
     "Discuss a project or just want to say hi? My Inbox is open for all.",
-  number: "+92-0000000000",
-  email_address: "saadpasta70@gmail.com"
+  number: "971.354.7875",
+  email_address: "jackjohnson221b@gmail.com"
 };
 
 // Twitter Section
