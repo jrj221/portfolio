@@ -24,7 +24,7 @@ const greeting = {
   title: "Hey, I'm Jack!",
   subTitle: emoji("Welcome to my portfolio!"),
   resumeLink:
-    "https://drive.google.com/file/d/17wyh-qPBn7SOCSKdV0qgU_5AMnLGk3Zu/view?usp=drive_link", // Set to empty to hide the button. this link doesn't need to be replaced to get your resume in the site. Follow the README instructions for that.
+    "https://drive.google.com/file/d/1ofFdKF_mqscH8WvXkSObnVvC9kK7Ldlu/view?usp=sharing", // Set to empty to hide the button. this link doesn't need to be replaced to get your resume in the site. Follow the README instructions for that.
   displayGreeting: true // Set false to hide this section, defaults to true
 };
 
@@ -222,8 +222,8 @@ const bigProjects = {
       ]
     },
     {
-      image: require("./assets/images/nextuLogo.webp"),
-      projectName: "PNG Image Compression (Personal Project",
+      image: require("./assets/images/image_compression_snapshot.png"),
+      projectName: "PNG Image Compression (Personal Project)",
       projectDesc:
         "Uses pixel approximation to optimize the .PNG deflation algorithm. On large files, managed to decrease size by more than 80%",
       footerLink: [
