@@ -232,6 +232,18 @@ const bigProjects = {
           url: "http://github.com/jrj221/ImageCompression"
         }
       ]
+    },
+    {
+      image: require("./assets/images/social_before_ai_search.png"),
+      projectName: "CougsConnect - Social Media Web App (Team Project)",
+      projectDesc:
+        "Developed a social media web app in a team of three for college freshmen with AI-powered post filtering to enhance event discovery.",
+      footerLink: [
+        {
+          name: "See GitHub",
+          url: "http://github.com/jrj221/CougsConnect"
+        }
+      ]
     }
   ],
   display: true // Set false to hide this section, defaults to true
@@ -372,7 +384,6 @@ const contactInfo = {
 };
 
 // Twitter Section
-
 const twitterDetails = {
   userName: "twitter", //Replace "twitter" with your twitter username without @
   display: false // Set true to display this section, defaults to false
